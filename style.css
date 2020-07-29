@@ -1,0 +1,542 @@
+
+/***CONTACT HTML****/
+
+.contact_carpet{
+    background-color: #FFFFFF;
+    padding: 9rem 6rem 6.5rem 6rem;
+    border-radius: 1.5rem;
+    float: left;
+}
+
+.contact_user{
+    background-color: #FFFFFF;
+    padding: 6rem 6rem 6.5rem 6rem;
+    border-radius: 1.5rem;
+    float: right;
+}
+
+.carpet{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+    background-size: cover;
+}
+
+.contact-div{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.icons{
+    color: #6200EA;
+    font-size: 6rem;
+    margin-top: 3rem;
+}
+
+.fa-instagram-aquqare{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+
+/**LOG IN HTML**************************/
+    /** left div **/
+
+.login-div-left{
+    background-color: #6200EA;
+    color: #FFFFFF;
+    width: 50%;
+    height: 95rem;
+  
+}
+
+.fa-microscope{
+    color: #6200EA;
+    font-size: 2.1rem;
+    border: 1px solid #6200EA;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 60px;
+    margin-top: 6rem;
+}
+
+.fa-grin-stars{
+    color: #6200EA;
+    font-size: 2.1rem;
+    border: 1px solid #6200EA;
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-radius: 60px;
+    margin-top: 6rem;
+}
+
+.fa-hands-helping{
+    color: #6200EA;
+    font-size: 2.1rem;
+    border: 1px solid #6200EA;
+    background-color: #FFFFFF;
+    padding: 8px 6px 8px 6px;
+    border-radius: 60px;
+    margin-top: 6rem;
+}
+
+
+
+/**Login right side***/
+
+.login-right-img{
+    position: relative;
+    width: 50%;
+    height: 95rem;
+}
+
+div.login-right-img::before{
+    position: absolute;
+    content: '';
+    background-image: url(pictures-logo/bailey.jpg);
+    filter: grayscale(100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95rem;
+    background-size: cover;
+}
+
+.login-div-right-size{
+    width: 50%;
+    height: 95rem;
+    position: relative;
+}
+
+.login-right-log-div{
+    width: 64%;
+    height: auto;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 10rem;
+    padding: 10%;
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    position: absolute;
+}
+
+
+
+/****INDEX HTML***********/
+
+    /***Featured Blog post****/
+
+ .featured-div{
+    height: auto;
+     margin-top: 4rem;
+     padding: 6rem;
+     color: #FFFFFF;
+     margin-bottom: 3.5rem;
+     position: relative;
+ }
+
+ .featured-jpg{
+    background-image: url("pictures-logo/roberto-nickson.jpg");
+    height: auto;
+    background-position: top right;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+
+.featured-h10{
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2.4px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+
+/****Business**INDEX HTML*/
+
+.business-div{
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 1rem;
+    float: left;
+}
+
+.culture-div{
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 1rem;
+    float: right; 
+}
+
+.jpg-business{
+    background-image: url("pictures-logo/samson.jpg");
+    width: 12rem;
+    height: 12rem;
+    background-size: cover;
+    border-radius: 1rem;
+    margin: 1rem 2rem 1rem 1rem;
+    float: left;
+}
+
+.jpg-culture{
+    background-image: url("pictures-logo/vitaliy.jpg");
+    width: 12rem;
+    height: 12rem;
+    background-size: cover;
+    border-radius: 1rem ;
+    margin: 1rem 2rem 1rem 1rem;
+    float: left;
+}
+
+
+
+/****Sample blog post* INDEX HTML**/
+
+.sample-div{
+    padding: 60px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: auto;
+    background-color: #FFFFFF;
+    color: #211138;
+    border-radius: 15px;
+}
+
+
+
+ /***Sean picture** INDEX HTML**/
+
+ .sean-div{
+    display: table;
+    height: auto;
+ }
+ 
+ .jpg-sean{
+    width: 100%;
+    height: 32rem;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+ }
+
+
+
+/**Blogpost* INDEX HTML**/
+
+.blogpost-div{
+    height: auto;
+    background-color: #FFFFFF;
+    padding: 60px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+
+/****Another blogpost* INDEX HTML***/
+
+.another-blogpost-div{
+    height: auto;
+    background-color: #FFFFFF;
+    margin-top:  3rem;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+
+
+
+
+/**Right side* INDEX HTML*/
+
+    /***Latest new div* INDEX HTML**/
+
+.latestnews-div{
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 4rem;
+    display: block;
+}
+
+.latest-address{
+    background-color: #6200EA;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 2.2rem;
+    padding-bottom: 2.3rem;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: auto;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.latest-desing-div{
+    margin-top: 19px;   
+    margin-bottom: 39px;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.jpg-latest-barri{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1rem;
+    margin: 0rem 2rem 2rem 2rem;
+    background-size: cover;
+    float: left;
+}
+
+.jpg-latest-boxed-water{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1rem;
+    margin: 0rem 2rem 2rem 2rem;
+    background-size: cover;
+    float: left;
+}
+
+.jpg-latest-boxed-polotics{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1rem;
+    margin: 0rem 2rem 2rem 2rem;
+    background-size: cover;
+    float: left;
+}
+
+
+
+
+/***Recommended* INDEX HTML*/
+
+.div-recommended{
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 3rem;
+    display: block;
+}
+
+.img-recommended{
+    width: 12rem;
+    height: 12rem;
+    margin: 0rem 2rem 2rem 2rem;
+    background-size: cover;
+    border-radius: 1rem;
+    float: left;
+}
+
+
+
+/****Categories***/
+
+.div-categories{
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 3rem;
+    display: block;
+}
+
+
+
+
+
+/********CHAT HTML**********/
+
+.chat-right-div{
+    width: 70%;
+    height: 90rem;
+    border: solid 1px #F4F3F5;
+}
+
+.chat-header{
+    width: 100%;
+    height: 80px;
+    background-color: #6200EA;
+    position: relative;
+}
+
+.chat-h2{
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 3rem;
+    margin-right: 25%;
+    float: left;
+}
+
+.chat-logo-user{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 2.1rem;
+    margin-right: 2.1rem;
+    margin-top: -11px;
+    float: right;
+    background-size: cover;
+}
+
+.chat-logo-user-name{
+    color: #FFFFFF;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+}
+
+.chat_gray{
+    color: #B2ACBA;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 8rem;
+    margin-bottom: 2px;
+    text-align: left;
+    display: block;
+}
+
+.chat_gray-right{
+    color: #B2ACBA;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+    margin-right: 11rem;
+    text-align: right;
+    display: block;
+}
+
+.speak{
+    background-color: #FFFFFF;
+    padding: 2rem;
+    max-width: 45%;
+    margin-bottom: 3rem;
+    margin-left: 8rem;
+    margin-right: 30%;
+    border-radius: 0px 15px 15px 15px;
+}
+
+.chat-logo-speak{
+    width: 49px;
+    height: 49px;
+    border-radius: 30px;
+    margin-left: 2.1rem;
+    margin-right: 2.1rem;
+    background-size: cover;
+    position: absolute;
+}
+
+.chat-logo-speak-right{
+    width: 49px;
+    height: 49px;
+    border-radius: 30px;
+    margin-top: -7.5rem;
+    margin-right: 3rem;
+    background-size: cover;
+    float: right;
+}
+
+.speak-right{
+    background-color: #B2ACBA;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 10rem;
+    min-width: 30%;
+    margin-left: 25%;
+    border-radius: 15px 15px 0px 15px;
+  
+}
+
+.chat-right-div-bottom{
+    width: 100%;
+    height: 140px;
+    background-color: #FFFFFF;
+    margin-top: 65px;
+    padding: 2rem 0rem 2rem 2rem;
+}
+
+.chat-from textarea{
+    width: 89%;
+    height: 100px;
+    margin-top: 0px;
+}
+
+.chat-i-grin i{
+    font-size: 2rem;
+    color: #B2ACBA;
+    margin-top:  -86px;
+    margin-left: 57%;
+    position: absolute;
+}
+.chat-i-paperclip{
+    font-size: 2rem;
+    color: #B2ACBA;
+    margin-top:  -86px;
+    margin-left: 53%;
+    position: absolute;
+}
+.chat-i-purple i{
+    font-size: 2rem;
+    background-color: #6200EA;
+    border: solid 1px #6200EA;
+    border-radius: 2.2rem;
+    color: #FFFFFF;
+    padding: 1rem;
+    margin-top: -97px;
+    margin-left: 63%;
+    position: absolute;
+}
+/*****chat left****/
+
+.chat-left-div{
+    width: 30%;
+    height: 1030px;
+    background-color: #FFFFFF;
+    border: solid 1px  #F4F3F5;
+    border-right: none;
+}
+
+
+.chat-leftchat{
+    width: 100%;
+    height: 105px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-top: solid 1px #F4F3F5;
+    overflow: hidden;
+}
+
+.chat-logo-users-right{
+    width: 49px;
+    height: 49px;
+    border-radius: 30px;
+    margin-left: 2.1rem;
+    margin-right: 2.1rem;
+    margin-top: 0.8rem;
+    float: left;
+    background-size: cover;
+}
+
+.chat-right-button{
+    border-color: #6200EA;
+    border: 2px solid;
+    border-radius: 24px;
+    color: #6200EA;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 2.3rem;
+    width: 99%;
+    text-transform: uppercase;
+    display: inline-block;
+}
